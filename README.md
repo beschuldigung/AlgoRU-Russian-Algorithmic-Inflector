@@ -15,4 +15,4 @@ You input a word, spacy identifies the POS, and the appropriate action is select
 
 # what still needs to be done
 
-I am currently working on a parser for Zalizniaks grammar dictionary, as well as his renowned inflection annotation system. This will allow me to account for almost all inflection types and the vast majority of irregular forms as well, so this library can be used for professional NLP tasks. 
+I am currently working on a parser for Zalizniaks grammar dictionary, as well as his renowned inflection annotation system. This will allow me to account for almost all inflection types and the vast majority of irregular forms as well, so this library can be used for professional NLP tasks. I also have yet to tackle verb conjugation other than regular past tense forms. 
