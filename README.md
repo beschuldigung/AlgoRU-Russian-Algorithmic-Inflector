@@ -22,7 +22,8 @@ I am currently working on a parser for Zalizniaks grammar dictionary, as well as
 noun inflection
 
 <img width="329" alt="tas" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/47b0edc1-fc55-4974-8f42-71d04beba736">
-<img width="329" alt="tas2" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/0f57fc8e-ca81-48d9-b0bb-d45956d4b187">
+<img width="329" alt="tas" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/43b7a696-c856-4948-93c8-af442d4c67ef">
+
 
 
 past tense verb conjugation
