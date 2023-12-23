@@ -15,7 +15,7 @@ You input a word, spacy identifies the POS, and the appropriate action is select
 
 # what still needs to be done
 
-I am currently working on a parser for Zalizniaks grammar dictionary, as well as his renowned inflection annotation system. This will allow me to account for almost all inflection types and the vast majority of irregular forms as well, so this library can be used for professional NLP tasks. I also have yet to tackle verb conjugation other than regular past tense forms. I'm still actively scraping russian texts for verbs to add to the database, but once I achieve a reasonable size, this database also needs to be cleaned, because the Spacy model sometimes mistakenly returns ukrainian verbs or from other slavic languages when using the lemma method (I assume its due to the datasets used to train the model), and there are a small number of double inputs. 
+I am currently working on a parser for Zalizniaks grammar dictionary, as well as his renowned inflection annotation system. This will allow me to account for almost all inflection types and the vast majority of irregular forms as well, so this library can be used for professional NLP tasks. I also have yet to tackle verb conjugation other than regular past tense forms. I'm still actively scraping russian texts for verbs to add to the database, but once I achieve a reasonable size, this database also needs to be cleaned, because the Spacy model sometimes mistakenly returns ukrainian verbs or from other slavic languages when using the lemma method (I assume its due to the datasets used to train the model), and there are a small number of double inputs. Adding inflection algorithms for adjectives and participles would be the last to follow. 
 
 # examplatory outputs
 
