@@ -30,7 +30,7 @@ past tense verb conjugation
 <img width="371" alt="Screenshot 2023-12-23 at 03 07 57" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/755efcb2-e67e-44ee-83bd-1f89a22a495f">
 
 
-how the aspect pair SQLite database is structured
+how the (in progress) aspect pair SQLite database is structured
 
 <img width="408" alt="Screenshot 2023-12-23 at 03 37 08" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/e6059208-46db-4364-8e49-f29700eb5094">
 
