@@ -19,14 +19,14 @@ I am currently working on a parser for Zalizniaks grammar dictionary, as well as
 
 # examplary outputs/visuals
 
-noun inflection
+noun inflection for the inputs девушка and учитель
 
 <img width="329" alt="tas" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/47b0edc1-fc55-4974-8f42-71d04beba736">
 <img width="329" alt="tas" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/43b7a696-c856-4948-93c8-af442d4c67ef">
 
 
 
-past tense verb conjugation (the stress markings are inaccurate because I haven't built these changes into the script yet, so it retains the stress marking from the infinitive forms scraped from wiktionary, whereas the imperfective forms don't have them at all)
+past tense verb conjugation for the verb возвращаться (the stress markings are inaccurate because I haven't built these changes into the script yet, so it retains the stress marking from the infinitive forms scraped from wiktionary, whereas the imperfective forms don't have them at all)
 
 <img width="371" alt="Screenshot 2023-12-23 at 03 07 57" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/755efcb2-e67e-44ee-83bd-1f89a22a495f">
 
