@@ -26,7 +26,7 @@ noun inflection
 
 
 
-past tense verb conjugation (the stress markings are inaccurate because I haven't built these changes into the script yet, so it retains the stress marking from the wiktionary entries, whereas the imperfective forms don't have them at all)
+past tense verb conjugation (the stress markings are inaccurate because I haven't built these changes into the script yet, so it retains the stress marking from the infinitive forms scraped from wiktionary, whereas the imperfective forms don't have them at all)
 
 <img width="371" alt="Screenshot 2023-12-23 at 03 07 57" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/755efcb2-e67e-44ee-83bd-1f89a22a495f">
 
