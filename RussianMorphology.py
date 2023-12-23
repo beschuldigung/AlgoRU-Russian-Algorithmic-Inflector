@@ -90,7 +90,7 @@ class morph(str):
                 return last_char in short_e_endings
             return False
 
-        # checks to see if a Zischlaut would affect the morphology of the ending
+        # checks to see if a silibant or г or к would affect the morphology of the ending
         def zischending(word):
             if ends_with_consonant(word) == True: #if ends with consonant
                 if any(word.lower().endswith(zisch) for zisch in silibants):
@@ -229,8 +229,10 @@ class morph(str):
             elif case == "В":
                 #FEMININE
                 if word.endswith("а"):
-                    newword = word[:-1]
-                    newword = newword + "ы"
+                    if zischending(word) == True:
+                        newword = word[:-1] + "и"
+                    elif zischending(word) == False:
+                        newword = word[:-1] + "ы"
                 # MASCULINE ANIMATE
                 elif is_alive(word):
                     if ends_with_consonant(word):
@@ -264,6 +266,9 @@ class morph(str):
                     elif ends_with_consonant(word) == False:
                         newword = word[:-1]
                         newword = newword + "и"
+                elif word.endswith("ь"):
+                    if soft_sign_is_masc(word) == True:
+                        newword = word[:-1] + "я"
                 else:
                     if ends_with_consonant(word) == True:
                         newword = word + "ы"
@@ -577,7 +582,7 @@ class morph(str):
         if word.endswith("ься"):
             if gender == "м":
                 newword = word[:-4]
-                newword = newword + ("лься")
+                newword = newword + ("лся")
                 return newword
             if gender == "ж":
                 newword = word[:-4]
