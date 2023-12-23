@@ -22,6 +22,7 @@ I am currently working on a parser for Zalizniaks grammar dictionary, as well as
 noun inflection
 
 <img width="380" alt="Screenshot 2023-12-22 at 15 45 05" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/34f60f5a-bb06-4363-9e6d-61c3f8a8fca6">
+<img width="329" alt="Screenshot 2023-12-23 at 03 40 10" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/548622e5-b547-44a5-b27b-f3c530ca1cd4">
 
 
 past tense verb conjugation
