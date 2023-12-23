@@ -31,7 +31,7 @@ past tense verb conjugation for the verb возвращаться (the stress ma
 <img width="371" alt="Screenshot 2023-12-23 at 03 07 57" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/755efcb2-e67e-44ee-83bd-1f89a22a495f">
 
 
-how the (in progress) aspect pair SQLite database is structured. Currently the database has in total 19,192 entries. 
+how the (in progress) aspect pair SQLite database is structured. Currently the database has 19,192 entries in total. 
 
 <img width="382" alt="Screenshot 2023-12-23 at 20 03 15" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/9d582abe-1840-400d-9a5f-49425739b809">
 
