@@ -21,8 +21,8 @@ I am currently working on a parser for Zalizniaks grammar dictionary, as well as
 
 noun inflection
 
-<img width="329" alt="tas" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/e757c908-268d-4e39-9490-cb657eba231e">
-<img width="329" alt="Screenshot 2023-12-23 at 03 40 10" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/548622e5-b547-44a5-b27b-f3c530ca1cd4">
+<img width="329" alt="tas" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/47b0edc1-fc55-4974-8f42-71d04beba736">
+<img width="329" alt="tas2" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/0f57fc8e-ca81-48d9-b0bb-d45956d4b187">
 
 
 past tense verb conjugation
