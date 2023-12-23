@@ -1,7 +1,7 @@
 # Russian-Algorithmic-Inflector
 This is an ongoing project for what will eventually become a python library for performing algorithmic morphological changes in Russian nouns and verbs
 
-# Morph Class
+# morph() Class
 
 All of the morphological manipulation methods are built into the morph() class. This will essentially encompass the entire library when finished. Currently the inflector() method (for noun inflection) of the morph class works for the vast majority of non-irregular nouns and has the most common exceptions built in. For a large number of nouns this is already useable. The pronoun_inflector() method, as it is quite simple, works perfectly. The past_tense_conjugator() works for all of the most basic non-irregular verb forms. The morph() class also has the get_aspectpair() method which looks through a database of verbal aspect pairs that I created myself and am consistently updating and outputs a list, in which [0] is the imperfective form and [1] (and depending on the verb also [2]) is/are the perfective form(s). This allows the script to put all forms through the past_tense_conjugator() method and, in the future, the present and future tense conjugators as well for complete conjugation capabilities. 
 
