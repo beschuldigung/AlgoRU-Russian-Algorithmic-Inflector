@@ -3,7 +3,7 @@ This is an ongoing project for what will eventually become a python library for 
 
 # Morph Class
 
-All of the morphological manipulation methods are built into the morph class. This will essentially encompass the entire library when finished. Currently the inflector method (for noun inflection) of the morph class works for the vast majority of non-irregular nouns and has the most common exceptions built in. For a large number of nouns this is already useable. The pronoun_inflector method, as it is quite simple, works perfectly. The past tense conjugator works for all non-irregular verb forms. The morph class also has the get_aspectpair method which looks through a database of verbal aspect pairs that I created myself and am consistently updating and outputs a list, in which index 0 is the imperfective form and index 1 (and depending on the verb also index 2) is/are the perfective form(s). This allows the script to put all forms through the past_tense_conjugator method and, in the future, the present and future tense conjugators as well for complete conjugation. Russian morphology is a very complex system with a very very high number of irregularities, so you can imagine this project will take quite a while to complete. Having a lot of fun with it though and would love any feedback you may have :)
+All of the morphological manipulation methods are built into the morph class. This will essentially encompass the entire library when finished. Currently the inflector method (for noun inflection) of the morph class works for the vast majority of non-irregular nouns and has the most common exceptions built in. For a large number of nouns this is already useable. The pronoun_inflector method, as it is quite simple, works perfectly. The past tense conjugator works for all non-irregular verb forms. The morph class also has the get_aspectpair method which looks through a database of verbal aspect pairs that I created myself and am consistently updating and outputs a list, in which index 0 is the imperfective form and index 1 (and depending on the verb also index 2) is/are the perfective form(s). This allows the script to put all forms through the past_tense_conjugator method and, in the future, the present and future tense conjugators as well for complete conjugation. 
 
 # Incorporation of Spacy for POS tagging
 
@@ -15,12 +15,14 @@ You input a word, spacy identifies the POS, and the appropriate action is select
 
 # what still needs to be done
 
-I am currently working on a parser for Zalizniaks grammar dictionary, as well as his renowned inflection annotation system. This will allow me to account for almost all inflection types and the vast majority of irregular forms as well, so this library can be used for professional NLP tasks. I also have yet to tackle verb conjugation other than regular past tense forms. I'm still actively scraping russian texts for verbs to add to the database, but once I achieve a reasonable size, this database also needs to be cleaned, because the Spacy model sometimes mistakenly returns ukrainian verbs or from other slavic languages when using the lemma method (I assume its due to the datasets used to train the model), and there are a small number of double inputs. Adding inflection algorithms for adjectives and participles would be the last to follow. 
+I am currently working on a parser for Zalizniaks grammar dictionary, as well as his renowned inflection annotation system. This will allow me to account for almost all inflection types and the vast majority of irregular forms as well, so this library can be used for professional NLP tasks. I also have yet to tackle verb conjugation other than regular past tense forms. I'm still actively scraping russian texts for verbs to add to the database, but once I achieve a reasonable size, this database also needs to be cleaned, because the Spacy model sometimes mistakenly returns ukrainian verbs or from other slavic languages when using the lemma method (I assume its due to the datasets used to train the model), and there are a small number of double inputs. Adding inflection algorithms for adjectives and participles would be the last to follow. Russian morphology is a very complex system with a very very high number of irregularities, so you can imagine this project will take quite a while to complete with a ton of different moving parts. Having a lot of fun with it though and would love any feedback you may have :)
 
 # examplatory outputs
 
+noun inflection
 <img width="380" alt="Screenshot 2023-12-22 at 15 45 05" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/34f60f5a-bb06-4363-9e6d-61c3f8a8fca6">
 
+past tense verb conjugation
 <img width="371" alt="Screenshot 2023-12-23 at 03 07 57" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/755efcb2-e67e-44ee-83bd-1f89a22a495f">
 
 
