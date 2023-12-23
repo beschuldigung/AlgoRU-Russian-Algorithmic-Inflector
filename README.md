@@ -7,7 +7,7 @@ All of the morphological manipulation methods are built into the morph() class. 
 
 # Incorporation of SpacY for POS tagging and classifying animacy
 
-The way I have it set up for development purposes is that I use an MIT licensed SpacY NLP model trained on russian news texts for pos tagging and classifying animacy created by Alexander Kukushkin (https://spacy.io/models/ru). The one I have been working with is ru_core_news_sm, which is trained on the smallest dataset (there are three that are distinguishable incrementally by size). I chose this one for performance optimization, as performing POS tagging on a single token is in my experience always accurate with this model. The pos tagging allows me to input any word class and have the script automatically loop it through the appropriate methods in the morph class. This makes development much quicker, because I can test outputs instantly. 
+The way I have it set up for development purposes is that I use an MIT licensed SpacY NLP model trained on russian news texts for POS tagging and classifying animacy created by Alexander Kukushkin (https://spacy.io/models/ru). The one I have been working with is ru_core_news_sm, which is trained on the smallest dataset (there are three that are distinguishable incrementally by size). I chose this one for performance optimization, as performing POS tagging on a single token is in my experience always accurate with this model. The pos tagging allows me to input any word class and have the script automatically loop it through the appropriate methods in the morph class. This makes development much quicker, because I can test outputs instantly. 
 
 # how it generally works
 
