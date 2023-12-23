@@ -35,4 +35,4 @@ how the (in progress) aspect pair SQLite database is structured. Currently the d
 
 <img width="408" alt="Screenshot 2023-12-23 at 03 37 08" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/e6059208-46db-4364-8e49-f29700eb5094">
 
-(the data pulled from wiktionary is licensed under a CC BY-SA 4.0 DEED license. For information about the authors who contributed to the pages that the data was pulled from, please visit the respective wiktionary pages for each of the verbs)
+(the data pulled from wiktionary is licensed under a CC BY-SA 4.0 DEED license. For information about the authors who contributed to the pages that the aspect pairs were extractd from, please visit the respective wiktionary page for the verb)
