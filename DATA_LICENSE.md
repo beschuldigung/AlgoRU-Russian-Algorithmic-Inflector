@@ -22,4 +22,4 @@ Full details of the license can be viewed here: [CC BY-SA 4.0 License](https://c
 
 ---
 
-*This licensing does not apply to the source code of the project, which is licensed under the MIT License (see LICENSE file).*
+*This licensing does not apply to the source code of the project, which is licensed under the MIT License (see LICENSE.md file).*
