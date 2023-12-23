@@ -31,7 +31,7 @@ past tense verb conjugation
 <img width="371" alt="Screenshot 2023-12-23 at 03 07 57" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/755efcb2-e67e-44ee-83bd-1f89a22a495f">
 
 
-how the (in progress) aspect pair SQLite database is structured (the stress markings are inaccurate because I haven't built these changes into the script yet, so it retains the stress marking from the wiktionary entries, whereas the imperfective forms don't have them at all)
+how the (in progress) aspect pair SQLite database is structured (the stress markings are inaccurate because I haven't built these changes into the script yet, so it retains the stress marking from the wiktionary entries, whereas the imperfective forms don't have them at all). Currently the database has 19192 entries. 
 
 <img width="408" alt="Screenshot 2023-12-23 at 03 37 08" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/e6059208-46db-4364-8e49-f29700eb5094">
 
