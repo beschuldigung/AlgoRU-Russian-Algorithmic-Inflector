@@ -29,3 +29,7 @@ past tense verb conjugation
 <img width="371" alt="Screenshot 2023-12-23 at 03 07 57" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/755efcb2-e67e-44ee-83bd-1f89a22a495f">
 
 
+how the aspect pair database is structured
+
+<img width="399" alt="Screenshot 2023-12-23 at 03 34 16" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/933b749d-3904-4099-be32-dca115d19599">
+
