@@ -21,7 +21,7 @@ I am currently working on a parser for Zalizniaks grammar dictionary, as well as
 
 noun inflection
 
-<img width="329" alt="Screenshot 2023-12-22 at 15 45 05" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/34f60f5a-bb06-4363-9e6d-61c3f8a8fca6">
+<img width="329" alt="tas" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/c56867ce-8955-453e-a1fa-4b7f3d4b3e4c">
 <img width="329" alt="Screenshot 2023-12-23 at 03 40 10" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/548622e5-b547-44a5-b27b-f3c530ca1cd4">
 
 
