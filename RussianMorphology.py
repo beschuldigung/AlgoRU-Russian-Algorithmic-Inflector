@@ -1,4 +1,4 @@
-import spacy
+import spacy, sqlite3
 
 nlp = spacy.load("ru_core_news_sm")
 
@@ -33,6 +33,32 @@ class morph(str):
             return "imp"
         else:
             return "perf"
+
+    def get_aspectpair(word):
+
+        firstletter = word[0]
+
+        conn = sqlite3.connect('verbdb.sqlite')
+        cur = conn.cursor()
+
+        cur.execute(f"SELECT * FROM '{firstletter}' WHERE impf = '{word}'")
+        rows = cur.fetchall()
+
+        if len(rows) == 0:
+            cur.execute(f"SELECT * FROM '{firstletter}' WHERE perf = '{word}'")
+            rows = cur.fetchall()
+            rows = list(rows)
+            row = rows[0]
+            row = str(row)
+            print(row)
+            row = row.split()
+            print(row)
+            return row
+        else:
+            rows = list(rows)
+            row = rows[0]
+            row = list(row)
+            return row
 
     def inflector(word, case, number):
 
@@ -548,22 +574,40 @@ class morph(str):
             morph = str(token.lemma_)
             word = morph
         
-        if gender == "м":
-            newword = word[:-2]
-            newword = newword + ("л")
-            return newword
-        if gender == "ж":
-            newword = word[:-2]
-            newword = newword + ("ла")
-            return newword
-        if gender == "с":
-            newword = word[:-2]
-            newword = newword + ("ло")
-            return newword
-        if gender == "мн":
-            newword = word[:-2]
-            newword = newword + ("ли")
-            return newword
+        if word.endswith("ься"):
+            if gender == "м":
+                newword = word[:-4]
+                newword = newword + ("лься")
+                return newword
+            if gender == "ж":
+                newword = word[:-4]
+                newword = newword + ("лась")
+                return newword
+            if gender == "с":
+                newword = word[:-4]
+                newword = newword + ("лось")
+                return newword
+            if gender == "мн":
+                newword = word[:-4]
+                newword = newword + ("лись")
+                return newword
+        else:    
+            if gender == "м":
+                newword = word[:-2]
+                newword = newword + ("л")
+                return newword
+            if gender == "ж":
+                newword = word[:-2]
+                newword = newword + ("ла")
+                return newword
+            if gender == "с":
+                newword = word[:-2]
+                newword = newword + ("ло")
+                return newword
+            if gender == "мн":
+                newword = word[:-2]
+                newword = newword + ("ли")
+                return newword
 
 word = input("вводите пожалуюйста слово")
 doc = nlp(word)
@@ -600,6 +644,21 @@ for token in doc:
 
     elif token.pos_ == "VERB":
         word = token.text
-        for gender in verbgenders:
-            newword = morph.past_tense_conjugator(word, gender)
-            print(f"{gender}: {newword}")
+        aspectpair = morph.get_aspectpair(word)
+        for form in aspectpair:
+            if form is None:
+                aspectpair.remove(form)
+        if len(aspectpair) == 2:
+            print(f"несовершенный вид: {aspectpair[0]}")
+            print(f"совершенный вид: {aspectpair[1]}")
+            print()
+        if len(aspectpair) == 3:
+            print(f"несовершенный вид: {aspectpair[0]}")
+            print(f"совершенный вид: {aspectpair[1]} (или) {aspectpair[2]}")
+            print()
+        for form in aspectpair:
+            word = form
+            for gender in verbgenders:
+                newword = morph.past_tense_conjugator(word, gender)
+                print(f"{gender}: {newword}")
+            print()
