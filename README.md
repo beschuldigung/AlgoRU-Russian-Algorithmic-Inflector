@@ -21,18 +21,18 @@ I am currently working on a parser for Zalizniaks grammar dictionary, as well as
 
 noun inflection for the inputs девушка and учитель
 
-<img width="329" alt="tas" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/47b0edc1-fc55-4974-8f42-71d04beba736">
-<img width="329" alt="tas" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/43b7a696-c856-4948-93c8-af442d4c67ef">
-
+<img width="329" alt="Screenshot 2023-12-25 at 21 56 00" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/9a4c62b0-2d3e-44ed-83fa-9ee02a254187">
+<img width="328" alt="Screenshot 2023-12-25 at 22 00 42" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/ff1cd5b2-1c48-4c53-961a-ce67c631639a">
 
 
 past tense verb conjugation for the verb возвращаться (the stress markings are inaccurate because I haven't built these changes into the script yet, so it retains the stress marking from the infinitive forms scraped from wiktionary, whereas the imperfective forms don't have them at all)
 
-<img width="371" alt="Screenshot 2023-12-23 at 03 07 57" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/755efcb2-e67e-44ee-83bd-1f89a22a495f">
+<img width="358" alt="Screenshot 2023-12-25 at 21 56 41" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/49bce984-f2c0-41f9-bfa2-9422a80acea7">
 
 
 how the (in progress) aspect pair SQLite database is structured. Currently the database has 19,192 entries in total, and I have successfully extracted aspect pairs for 6,436 of these. 
 
-<img width="491" alt="Screenshot 2023-12-23 at 22 17 56" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/19b08b15-5f06-40a5-b037-5e723c6549d4">
+<img width="475" alt="Screenshot 2023-12-25 at 22 00 06" src="https://github.com/ciaranmays/Russian-Algorithmic-Inflector/assets/154232302/be6b5534-8364-4cd4-944f-c760376d40d9">
+
 
 (the data pulled from wiktionary, unlike my source code itself, which is licensed under an MIT license, is licensed under a CC BY-SA 4.0 DEED license. For information about the authors who contributed to the pages that the aspect pairs were extracted from, please visit the wiktionary page for the respective *imperfective* verb form on english wiktionary. For more information about the terms and restrictions of the two licenses, please read the LICENSE.md and DATA_LICENSE.md files)
